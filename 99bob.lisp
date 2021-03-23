@@ -1,9 +1,9 @@
 (defvar a 100)
 (loop
-	(format t "~d bottles of Pepsi(R) on the wall" a)(format t ", ~d bottles of Pepsi(R)" a)
+ 	(princ (concatenate 'string (princ-to-string a) "bottles of Pepsi(R) on the wall, " (princ-to-string a) "bottles of Pepsi(R)"))
 	(terpri)
 	(decf a)
-	(format t "Take one down and pass it around, ~d bottles of Pepsi(R) on the wall" a)	
+	(princ (concatenate 'string "Take one down and pass it around," (princ-to-string a) " bottles of Pepsi(R) on the wall"))
 	(terpri)
 (when (= a 0)(quit))
 )

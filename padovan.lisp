@@ -1,4 +1,4 @@
-;;;; The programme outputs the Padovan sequence up to 100.
+;;;; Das Programm gibt die Padovan-Sequenz bis 100 aus.
 (defvar pad)
 (setf pad (make-array '(100)))
 (defvar i 3) 

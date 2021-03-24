@@ -1,4 +1,4 @@
-;;;; The programme outputs the Fibonacci sequence up to 100.
+;;;; Das Programm gibt die Fibonacci-Sequenz bis 100 aus.
 (defvar fib)
 (setf fib (make-array '(100)))
 (defvar i 3) 
